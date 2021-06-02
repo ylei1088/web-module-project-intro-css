@@ -196,34 +196,18 @@ nav a:hover {
 
 /*text content box1 section*/
 div.box1 {
-  background-color: #ddb9a3;
-  padding: 2%;
+  background-color: #a18bbb;
+  padding: 6%;
   margin: 0 5% 0 5%;
   color: #fff;
-}
-
-.box1 p {
-  padding: 1%;
+  line-height: 3rem;
   font-size: 2rem;
 }
 
-/*icon with text box2 section*/
-div.box2 {
-  width: 30%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+ol.c {
+  list-style-type: decimal;
 }
 
-.icon {
-  width: 10%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3%;
-}
-
-/* background imgage section */
 .heroImg {
   height: 20vh;
   background-image: url("assets/footer_img.jpg");
