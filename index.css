@@ -1,3 +1,232 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  /* border: 1px solid grey; */
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #4f4f4f; /*easier to read then back on white*/
+  font-family: "Roboto Mono", monospace;
+}
 h1 {
-  color: red;
+  font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
+}
+section {
+  padding: 4% 0;
+}
+
+/* Header Section Style */
+nav {
+  padding: 2% 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1% 0;
+  width: 10%;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.orange {
+  background-color: #ff764e;
+  margin-left: 10%;
+}
+
+.blue {
+  background-color: #5ed3eb;
+  margin: 0 24%;
+}
+.yellow {
+  background-color: #ffcd69;
+  margin-right: 10%;
+}
+
+/* Top Section */
+.top {
+  /* text-align: center; */
+  position: relative;
+}
+
+.left img {
+  border-radius: 50%;
+  width: 60%;
+}
+
+.left,
+.right {
+  display: inline-block;
+  text-align: center;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 45%;
+  margin-left: 10%;
+  position: absolute;
+  top: 20%;
+}
+
+.top h1 {
+  margin-bottom: 5%;
+  font-size: 6rem;
+}
+
+.top h3 {
+  font-size: 2rem;
+  /* margin-top: 4%; */
+}
+
+/*text content box1 section*/
+div.box1 {
+  background-color: #ddb9a3;
+  padding: 2%;
+  margin: 0 5% 0 5%;
+  color: #fff;
+}
+
+.box1 p {
+  padding: 1%;
+  font-size: 2rem;
+}
+
+/*icon with text box2 section*/
+div.box2 {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  width: 10%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+/* background imgage section */
+.heroImg {
+  height: 20vh;
+  background-image: url("assets/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: 5%;
+}
+
+footer {
+  background-color: #f9e7dc;
 }
